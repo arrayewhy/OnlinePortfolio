@@ -28,6 +28,55 @@
 				letter-spacing: 0.02em;
 			}
 
+			/* Button Styling */
+
+			.button-anchor {
+
+				/* Spacing */
+
+				display: inline-block;
+				padding: 20px;
+				margin-top: 4%;
+				margin-left: 1%;
+				margin-right: 1%;
+
+				/* Rounded Edges */
+
+				border-radius: 5px;
+			}
+
+			.button-anchor-awake {
+
+				/* Font */
+
+				color: rgba(0, 0, 0, 0.8);
+				text-decoration: none;
+
+				/* Colour */
+
+				background-color: #FFD54B;
+
+				/* Cursor */
+
+				cursor: zoom-in;
+			}
+
+			.button-anchor-asleep {
+
+				/* Font */
+
+				color: #FFF;
+				text-decoration: none;
+
+				/* Colour */
+
+				background-color: rgba(0, 0, 0, 0.1);
+
+				/* Cursor */
+
+				cursor: wait;
+			}
+
 			/* Header Tag Styling */
 
 			h2 {
@@ -81,6 +130,10 @@
 
 			p {
 
+				/* Font */
+
+				line-height: 1.5em;
+
 				/* Colour */
 
 				opacity: 0.6;
@@ -132,7 +185,7 @@
 
 				/* Spacing */
 
-				padding: 4%;
+				padding: 4% 8%;
 				margin-bottom: 2%;
 			}
 
@@ -267,6 +320,13 @@
 					line-height: 1.25em;
 				}
 
+				p.button-push-down {
+
+					/* Spacing */
+
+					margin-bottom: 1%;
+				}
+
 				/* Content Section Styling */
 
 				.content-section {
@@ -323,6 +383,13 @@
 					/* Font */
 
 					line-height: 1.25em;
+				}
+
+				p.button-push-down {
+
+					/* Spacing */
+
+					margin-bottom: 4%;
 				}
 
 				/* Content Section Styling */
@@ -451,15 +518,30 @@
 
 		<div class="content-section">
 			<h3>Who are you?</h3>
-			<p>My name is Raymond Lee Ik Chiang.</p>
+			<p>
+				My name is Raymond Lee Ik Chiang.
+			</p>
 		</div>
 		<div class="content-section">
 			<h3>What do you do?</h3>
-			<p>Draw, calligraph, code, animate, laugh, eat, help grandma with the garden.</p>
+			<p class="button-push-down">
+				Draw, calligraph, code, animate, laugh, eat, help grandma with the garden. You'll find some examples below!
+			</p>
+			<a href="https://www.facebook.com/media/set/?set=a.10209168495947640&type=1&l=73251c5d4c" target="_blank" class="button-anchor button-anchor-awake">
+				100 Day Project
+			</a>
+			<a href="https://vimeo.com/239307135" target="_blank" class="button-anchor button-anchor-awake">
+				Animation Reel
+			</a>
+			<div class="button-anchor button-anchor-asleep">
+				Compiling...
+			</div>
 		</div>
 		<div class="content-section">
-			<h3>How can you help me?</h3>
-			<p>We'll figure that out. Why don't you tell me about that project you have in mind?</p>
+			<h3>What would you like to do?</h3>
+			<p>
+				A website? Children's books? A fantasy RPG video game? We'll figure that out. Why don't you tell me about that project you have in mind?
+			</p>
 		</div>
 	</body>
 
